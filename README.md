@@ -27,26 +27,35 @@ So now we can use the strengthnesses of each of those platform combined to creat
 
 In this tutorial, we will create a full `WhatsApp` clone using Angular and `Ionic` framework as a client platform and `Meteor`'s reactive collections and authentication packages as our back-end.
 
-#### Chapters
+## How to install
 
-- **[Step 1](.tortilla/manuals/views/step1.md)** - Bootstrapping
-- **[Step 2](.tortilla/manuals/views/step2.md)** - Chats Page
-- **[Step 3](.tortilla/manuals/views/step3.md)** - RxJS
-- **[Step 4](.tortilla/manuals/views/step4.md)** - Realtime Meteor Server
-- **[Step 5](.tortilla/manuals/views/step5.md)** - Folder Structure
-- **[Step 6](.tortilla/manuals/views/step6.md)** - Messages Page
-- **[Step 7](.tortilla/manuals/views/step7.md)** - Users & Authentication
-- **[Step 8](.tortilla/manuals/views/step8.md)** - Chats Creation & Removal
-- **[Step 9](.tortilla/manuals/views/step9.md)** - Privacy & Subscriptions
-- **[Step 10](.tortilla/manuals/views/step10.md)** - Filter & Pagination
-- **[Step 11](.tortilla/manuals/views/step11.md)** - Android testing
-- **[Step 12](.tortilla/manuals/views/step12.md)** - Google Maps & Geolocation
-- **[Step 13](.tortilla/manuals/views/step13.md)** - File Upload & Images
-- **[Step 14](.tortilla/manuals/views/step14.md)** - Native Mobile
-- **[Step 15](.tortilla/manuals/views/step15.md)** - Addressbook integration
-- **[Step 16](.tortilla/manuals/views/step16.md)** - FCM Push Notifications
-- **[Step 17](.tortilla/manuals/views/step17.md)** - Facebook authentication
-- **[Step 18](.tortilla/manuals/views/step18.md)** - Summary
+
+0. [Install Node](https://nodejs.org/en/download/)
+
+1. [Install Meteor](https://www.meteor.com/install)
+
+2. [Install Ionic](https://ionicframework.com/docs/intro/installation/)
+
+3. Install meteor client bundler
+
+```
+$ sudo npm install -g meteor-client-bundler
+```
+
+4. Clone repository and install dependencies
+```
+$ git clone https://github.com/Urigo/Ionic2CLI-Meteor-WhatsApp.git
+$ cd Ionic2CLI-Meteor-WhatsApp/
+$ meteor npm install sharp
+$ npm install
+$ npm run meteor-client:bundle
+$ npm run api
+```
+
+5. Run app
+```
+$ ionic serve
+```
 
 [{]: <helper> (navStep ref="https://angular-meteor.com/tutorials/whatsapp2/ionic/setup")
 
